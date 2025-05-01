@@ -1,3 +1,5 @@
+// Dart program to demonstrate the use of variables and input/output operations
+
 import "dart:io";
 void main(){
   var firstName = "Chethan";
@@ -7,5 +9,5 @@ void main(){
 
   stdout.writeln("Enter you name: ?");
   var name = stdin.readLineSync();
-  print("Hello $name!");
+  print("Hello $name!"); // String interpolation
 }
